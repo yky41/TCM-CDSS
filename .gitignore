@@ -1,0 +1,12 @@
+
+# large binaries / installers
+products/
+*.jar
+*.tar.gz
+
+
+# neo4j installers / large binaries
+**/products/
+*.jar
+*.tar.gz
+
