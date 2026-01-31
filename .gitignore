@@ -10,3 +10,9 @@ products/
 *.jar
 *.tar.gz
 
+
+# ignore large installers / binaries
+**/products/
+*.jar
+*.tar.gz
+
