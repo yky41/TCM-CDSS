@@ -1,0 +1,1174 @@
+﻿Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-02 02:54:29.845+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-02 02:54:29.859+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-02 02:54:29.906+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-02 02:54:29.906+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-02 02:54:29.906+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-02 02:54:29.907+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-02 02:54:29.907+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-02 02:54:29.909+0000 INFO  Starting...
+2024-06-02 02:54:31.891+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-02 02:54:33.101+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-02 02:54:33.133+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-02 02:54:33.649+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-02 02:54:37.572+0000 INFO  Default database 'neo4j' is created
+2024-06-02 02:54:38.002+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-02 02:54:38.003+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-02 02:54:38.004+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-02 02:54:38.045+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-02 02:54:38.053+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-02 02:54:38.054+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-02 02:54:38.114+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-02 02:54:38.255+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-02 02:54:38.258+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-02 02:54:39.084+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-02 02:54:39.086+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-02 02:54:39.089+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-02 02:54:39.090+0000 INFO  name: system
+2024-06-02 02:54:39.090+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-02 02:54:39.090+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-02 03:33:30.482+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-02 03:33:30.490+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-02 03:33:30.532+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-02 03:33:30.532+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-02 03:33:30.533+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-02 03:33:30.533+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-02 03:33:30.533+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-02 03:33:30.535+0000 INFO  Starting...
+2024-06-02 03:33:32.041+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-02 03:33:33.263+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-02 03:33:33.285+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-02 03:33:33.761+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-02 03:33:37.895+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-02 03:33:37.895+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-02 03:33:37.896+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-02 03:33:37.927+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-02 03:33:37.935+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-02 03:33:37.936+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-02 03:33:37.974+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-02 03:33:38.406+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-02 03:33:38.408+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-02 03:33:38.815+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-02 03:33:38.815+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-02 03:33:38.819+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-02 03:33:38.819+0000 INFO  name: system
+2024-06-02 03:33:38.819+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-02 03:33:38.819+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-03 02:03:08.499+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-03 02:03:08.512+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-03 02:03:08.560+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-03 02:03:08.560+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-03 02:03:08.560+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-03 02:03:08.560+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-03 02:03:08.560+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-03 02:03:08.560+0000 INFO  Starting...
+2024-06-03 02:03:10.568+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-03 02:03:12.149+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-03 02:03:12.171+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-03 02:03:12.669+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-03 02:03:15.000+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-03 02:03:15.001+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-03 02:03:15.001+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-03 02:03:15.025+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-03 02:03:15.029+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-03 02:03:15.032+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-03 02:03:15.074+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-03 02:03:15.228+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-03 02:03:15.228+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-03 02:03:15.689+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-03 02:03:15.689+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-03 02:03:15.699+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-03 02:03:15.699+0000 INFO  name: system
+2024-06-03 02:03:15.702+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-03 02:03:15.702+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-03 14:03:51.638+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-03 14:03:51.651+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-03 14:03:51.695+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-03 14:03:51.695+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-03 14:03:51.696+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-03 14:03:51.696+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-03 14:03:51.696+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-03 14:03:51.698+0000 INFO  Starting...
+2024-06-03 14:03:53.318+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-03 14:03:54.558+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-03 14:03:54.583+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-03 14:03:55.036+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-03 14:03:57.311+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-03 14:03:57.311+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-03 14:03:57.312+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-03 14:03:57.354+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-03 14:03:57.362+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-03 14:03:57.368+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-03 14:03:57.391+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-03 14:03:57.540+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-03 14:03:57.543+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-03 14:03:58.089+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-03 14:03:58.090+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-03 14:03:58.092+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-03 14:03:58.092+0000 INFO  name: system
+2024-06-03 14:03:58.092+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-03 14:03:58.092+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-04 00:02:08.559+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-04 00:02:08.575+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-04 00:02:08.656+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-04 00:02:08.656+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-04 00:02:08.656+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-04 00:02:08.656+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-04 00:02:08.656+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-04 00:02:08.656+0000 INFO  Starting...
+2024-06-04 00:02:11.065+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-04 00:02:13.077+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-04 00:02:13.117+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-04 00:02:13.894+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-04 00:02:17.711+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-04 00:02:17.712+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-04 00:02:17.713+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-04 00:02:17.773+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-04 00:02:17.783+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-04 00:02:17.786+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-04 00:02:17.848+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-04 00:02:18.108+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-04 00:02:18.108+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-04 00:02:19.239+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-04 00:02:19.242+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-04 00:02:19.242+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-04 00:02:19.242+0000 INFO  name: system
+2024-06-04 00:02:19.242+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-04 00:02:19.242+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-05 13:05:22.267+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-05 13:05:22.282+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-05 13:05:22.338+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-05 13:05:22.339+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-05 13:05:22.339+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-05 13:05:22.339+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-05 13:05:22.339+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-05 13:05:22.341+0000 INFO  Starting...
+2024-06-05 13:05:24.196+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-05 13:05:25.502+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-05 13:05:25.530+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-05 13:05:26.020+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-05 13:05:28.451+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-05 13:05:28.452+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-05 13:05:28.452+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-05 13:05:28.491+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-05 13:05:28.496+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-05 13:05:28.499+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-05 13:05:28.545+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-05 13:05:28.716+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-05 13:05:28.719+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-05 13:05:29.240+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-05 13:05:29.240+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-05 13:05:29.243+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-05 13:05:29.243+0000 INFO  name: system
+2024-06-05 13:05:29.244+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-05 13:05:29.244+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-06 02:57:17.874+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-06 02:57:17.887+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-06 02:57:17.939+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-06 02:57:17.939+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-06 02:57:17.939+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-06 02:57:17.940+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-06 02:57:17.940+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-06 02:57:17.942+0000 INFO  Starting...
+2024-06-06 02:57:19.863+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-06 02:57:21.294+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-06 02:57:21.322+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-06 02:57:21.895+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-06 02:57:25.392+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-06 02:57:25.392+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-06 02:57:25.393+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-06 02:57:25.435+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-06 02:57:25.441+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-06 02:57:25.443+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-06 02:57:25.474+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-06 02:57:25.644+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-06 02:57:25.646+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-06 02:57:26.158+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-06 02:57:26.159+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-06 02:57:26.162+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-06 02:57:26.162+0000 INFO  name: system
+2024-06-06 02:57:26.162+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-06 02:57:26.162+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-08 05:29:45.322+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-08 05:29:45.340+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-08 05:29:45.389+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-08 05:29:45.390+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-08 05:29:45.390+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-08 05:29:45.390+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-08 05:29:45.390+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-08 05:29:45.392+0000 INFO  Starting...
+2024-06-08 05:29:49.156+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-08 05:29:50.806+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-08 05:29:50.838+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-08 05:29:51.460+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-08 05:29:54.158+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-08 05:29:54.158+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-08 05:29:54.159+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-08 05:29:54.199+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-08 05:29:54.205+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-08 05:29:54.207+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-08 05:29:54.242+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-08 05:29:54.440+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-08 05:29:54.442+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-08 05:29:55.060+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-08 05:29:55.061+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-08 05:29:55.065+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-08 05:29:55.065+0000 INFO  name: system
+2024-06-08 05:29:55.065+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-08 05:29:55.066+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-09 02:46:25.842+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-09 02:46:25.858+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-09 02:46:25.906+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-09 02:46:25.906+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-09 02:46:25.906+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-09 02:46:25.906+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-09 02:46:25.906+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-09 02:46:25.908+0000 INFO  Starting...
+2024-06-09 02:46:27.395+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-09 02:46:28.689+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-09 02:46:28.715+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-09 02:46:29.234+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-09 02:46:31.570+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-09 02:46:31.571+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-09 02:46:31.572+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-09 02:46:31.608+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-09 02:46:31.613+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-09 02:46:31.614+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-09 02:46:31.643+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-09 02:46:31.797+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-09 02:46:31.799+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-09 02:46:32.301+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-09 02:46:32.302+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-09 02:46:32.304+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-09 02:46:32.305+0000 INFO  name: system
+2024-06-09 02:46:32.305+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-09 02:46:32.305+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-10 04:45:30.062+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-10 04:45:30.078+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-10 04:45:30.301+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-10 04:45:30.303+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-10 04:45:30.303+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-10 04:45:30.303+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-10 04:45:30.303+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-10 04:45:30.306+0000 INFO  Starting...
+2024-06-10 04:45:32.097+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-10 04:45:33.644+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-10 04:45:33.676+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-10 04:45:34.237+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-10 04:45:36.652+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-10 04:45:36.652+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-10 04:45:36.653+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-10 04:45:36.696+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-10 04:45:36.707+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-10 04:45:36.712+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-10 04:45:36.759+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-10 04:45:36.929+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-10 04:45:36.931+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-10 04:45:37.469+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-10 04:45:37.470+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-10 04:45:37.472+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-10 04:45:37.472+0000 INFO  name: system
+2024-06-10 04:45:37.472+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-10 04:45:37.472+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-11 04:48:12.856+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-11 04:48:12.867+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-11 04:48:12.911+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-11 04:48:12.911+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-11 04:48:12.911+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-11 04:48:12.912+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-11 04:48:12.912+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-11 04:48:12.914+0000 INFO  Starting...
+2024-06-11 04:48:14.640+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-11 04:48:15.943+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-11 04:48:15.966+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-11 04:48:16.441+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-11 04:48:18.836+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-11 04:48:18.837+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-11 04:48:18.837+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-11 04:48:18.868+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-11 04:48:18.875+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-11 04:48:18.877+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-11 04:48:18.920+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-11 04:48:19.099+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-11 04:48:19.101+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-11 04:48:19.597+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-11 04:48:19.597+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-11 04:48:19.600+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-11 04:48:19.600+0000 INFO  name: system
+2024-06-11 04:48:19.600+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-11 04:48:19.600+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-12 01:29:53.806+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-12 01:29:53.827+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-12 01:29:53.899+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-12 01:29:53.899+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-12 01:29:53.899+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-12 01:29:53.900+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-12 01:29:53.900+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-12 01:29:53.903+0000 INFO  Starting...
+2024-06-12 01:29:56.725+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 01:29:58.629+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-12 01:29:58.670+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-12 01:29:59.451+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 01:30:03.189+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-12 01:30:03.189+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 01:30:03.190+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-12 01:30:03.248+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-12 01:30:03.257+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-12 01:30:03.260+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-12 01:30:03.313+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 01:30:03.582+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 01:30:03.585+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 01:30:04.451+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-12 01:30:04.452+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-12 01:30:04.456+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-12 01:30:04.456+0000 INFO  name: system
+2024-06-12 01:30:04.457+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-12 01:30:04.457+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-12 02:34:42.209+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-12 02:34:42.224+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-12 02:34:42.278+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-12 02:34:42.278+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-12 02:34:42.278+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-12 02:34:42.278+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-12 02:34:42.278+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-12 02:34:42.282+0000 INFO  Starting...
+2024-06-12 02:34:43.886+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 02:34:45.160+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-12 02:34:45.186+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-12 02:34:45.640+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 02:34:48.185+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-12 02:34:48.185+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 02:34:48.185+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-12 02:34:48.216+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-12 02:34:48.220+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-12 02:34:48.222+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-12 02:34:48.256+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 02:34:48.397+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 02:34:48.400+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 02:34:48.887+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-12 02:34:48.888+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-12 02:34:48.890+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-12 02:34:48.891+0000 INFO  name: system
+2024-06-12 02:34:48.891+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-12 02:34:48.891+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-12 07:26:30.881+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-12 07:26:30.893+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-12 07:26:30.935+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-12 07:26:30.935+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-12 07:26:30.935+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-12 07:26:30.935+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-12 07:26:30.936+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-12 07:26:30.938+0000 INFO  Starting...
+2024-06-12 07:26:32.456+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 07:26:33.715+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-12 07:26:33.742+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-12 07:26:34.210+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 07:26:36.549+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-12 07:26:36.549+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 07:26:36.550+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-12 07:26:36.574+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-12 07:26:36.580+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-12 07:26:36.582+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-12 07:26:36.621+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 07:26:36.773+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 07:26:36.776+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 07:26:37.255+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-12 07:26:37.255+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-12 07:26:37.258+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-12 07:26:37.258+0000 INFO  name: system
+2024-06-12 07:26:37.259+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-12 07:26:37.259+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-12 08:46:56.372+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-12 08:46:56.389+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-12 08:46:56.441+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-12 08:46:56.442+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-12 08:46:56.442+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-12 08:46:56.442+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-12 08:46:56.442+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-12 08:46:56.446+0000 INFO  Starting...
+2024-06-12 08:46:58.069+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 08:46:59.489+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-12 08:46:59.521+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-12 08:47:00.192+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 08:47:02.700+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-12 08:47:02.700+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 08:47:02.701+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-12 08:47:02.741+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-12 08:47:02.750+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-12 08:47:02.752+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-12 08:47:02.783+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 08:47:02.947+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 08:47:02.949+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 08:47:03.545+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-12 08:47:03.546+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-12 08:47:03.548+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-12 08:47:03.549+0000 INFO  name: system
+2024-06-12 08:47:03.549+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-12 08:47:03.549+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-12 10:57:39.802+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-12 10:57:39.818+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-12 10:57:39.878+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-12 10:57:39.878+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-12 10:57:39.879+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-12 10:57:39.879+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-12 10:57:39.879+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-12 10:57:39.882+0000 INFO  Starting...
+2024-06-12 10:57:41.623+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 10:57:43.109+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-12 10:57:43.138+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-12 10:57:43.647+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-12 10:57:46.093+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-12 10:57:46.094+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 10:57:46.095+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-12 10:57:46.128+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-12 10:57:46.134+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-12 10:57:46.136+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-12 10:57:46.178+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 10:57:46.331+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 10:57:46.333+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-12 10:57:46.868+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-12 10:57:46.868+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-12 10:57:46.871+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-12 10:57:46.872+0000 INFO  name: system
+2024-06-12 10:57:46.872+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-12 10:57:46.872+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-13 00:57:39.445+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-13 00:57:39.463+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-13 00:57:39.528+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-13 00:57:39.529+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-13 00:57:39.529+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-13 00:57:39.529+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-13 00:57:39.529+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-13 00:57:39.533+0000 INFO  Starting...
+2024-06-13 00:57:41.921+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-13 00:57:43.614+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-13 00:57:43.646+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-13 00:57:44.327+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-13 00:57:47.488+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-13 00:57:47.488+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-13 00:57:47.503+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-13 00:57:47.549+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-13 00:57:47.551+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-13 00:57:47.551+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-13 00:57:47.613+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-13 00:57:47.817+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-13 00:57:47.817+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-13 00:57:48.491+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-13 00:57:48.507+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-13 00:57:48.507+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-13 00:57:48.507+0000 INFO  name: system
+2024-06-13 00:57:48.507+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-13 00:57:48.507+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b2
+38-90c801a40162\conf\neo4j.conf
+所在位置 C:\Users\lenovo\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 字符: 1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c80
+1a40162\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c
+801a40162\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162
+config:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf
+logs:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\logs
+plugins:      C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\plugins
+import:       C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\import
+data:         C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\data
+certificates: C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\certificates
+licenses:     C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\licenses
+run:          C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\run
+Starting Neo4j.
+2024-06-14 13:58:12.813+0000 INFO  Logging config in use: File 'C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\conf\user-logs.xml'
+2024-06-14 13:58:12.825+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-06-14 13:58:12.869+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-06-14 13:58:12.870+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-06-14 13:58:12.870+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-06-14 13:58:12.870+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-06-14 13:58:12.870+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-06-14 13:58:12.872+0000 INFO  Starting...
+2024-06-14 13:58:14.651+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-14 13:58:15.832+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-06-14 13:58:15.854+0000 INFO  This instance is ServerId{24ebac1f} (24ebac1f-c129-4471-99ca-cc6af8fca157)
+2024-06-14 13:58:16.339+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-06-14 13:58:18.824+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-06-14 13:58:18.825+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-14 13:58:18.826+0000 INFO  Sending metrics to CSV file at C:\Users\lenovo\.Neo4jDesktop\relate-data\dbmss\dbms-331b59fc-eb79-4d8d-b238-90c801a40162\metrics
+2024-06-14 13:58:18.857+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-06-14 13:58:18.863+0000 INFO  Bolt enabled on localhost:7687.
+2024-06-14 13:58:18.865+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-06-14 13:58:18.913+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-14 13:58:19.099+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-14 13:58:19.101+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-06-14 13:58:19.638+0000 INFO  HTTP enabled on localhost:7474.
+2024-06-14 13:58:19.639+0000 INFO  Remote interface available at http://localhost:7474/
+2024-06-14 13:58:19.642+0000 INFO  id: C99F8987EB64335A7DE19127E444B64AFFD286129CFF8ADE03C3E25AEA078484
+2024-06-14 13:58:19.643+0000 INFO  name: system
+2024-06-14 13:58:19.643+0000 INFO  creationDate: 2024-06-02T02:54:35.808Z
+2024-06-14 13:58:19.643+0000 INFO  Started.
+2024-06-14 14:04:52.543+0000 INFO  Neo4j Server shutdown initiated by request
+2024-06-14 14:04:52.543+0000 INFO  Stopping...
+2024-06-14 14:04:52.545+0000 INFO  Stopped.
